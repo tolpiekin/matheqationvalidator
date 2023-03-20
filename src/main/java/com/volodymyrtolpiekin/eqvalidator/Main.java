@@ -1,4 +1,4 @@
-package com.colodymyrtolpiekin.eqvalidator;
+package com.volodymyrtolpiekin.eqvalidator;
 
 public class Main {
     public static void main(String[] args) {

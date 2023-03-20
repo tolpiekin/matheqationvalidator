@@ -1,4 +1,4 @@
-package com.colodymyrtolpiekin.eqvalidator;
+package com.volodymyrtolpiekin.eqvalidator;
 
 public class Constants {
     public static final String ENTER_EQUATION = "Enter math equation to validate (or enter 'x' to exit): ";

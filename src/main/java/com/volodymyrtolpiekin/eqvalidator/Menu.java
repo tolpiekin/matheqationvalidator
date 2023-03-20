@@ -1,10 +1,10 @@
-package com.colodymyrtolpiekin.eqvalidator;
+package com.volodymyrtolpiekin.eqvalidator;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import static com.colodymyrtolpiekin.eqvalidator.Constants.*;
+import static com.volodymyrtolpiekin.eqvalidator.Constants.*;
 
 public class Menu {
     private final Scanner sc = new Scanner(System.in);
@@ -39,7 +39,7 @@ public class Menu {
             if (input.equals("x"))
                 nextRoot = false;
             else {
-                int n = Integer.valueOf(input);
+                int n = Integer.parseInt(input);
                 if (validator.checkSolution(n)) {
                     System.out.println(SOLUTION_IS_VALID);
                     roots.add(n);
