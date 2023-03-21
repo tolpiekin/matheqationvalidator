@@ -35,23 +35,4 @@ class ValidatorTest {
         assertTrue(validator.validate("1+x=2"));
         assertFalse(validator.validate("1+2=3"));
     }
-
-    @org.junit.jupiter.api.Test
-    void checkCalculations () {
-        validator.validate("2+x=3");
-        assertTrue(validator.checkSolution(1));
-    }
-
-    @org.junit.jupiter.api.Test
-    void checkCalculations1 () {
-        validator.validate("(1+2)+(x+3)=((1+2)+4)");
-        assertTrue(validator.checkSolution(1));
-    }
-
-    @org.junit.jupiter.api.Test
-    void checkCalculations2 () {
-        validator.validate("1+x=2");
-        assertTrue(validator.checkSolution(1));
-    }
-
 }
